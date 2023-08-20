@@ -27,7 +27,7 @@ const controller = {
 
 	// Create - Form to create
 	create: (req, res) => {
-		// Do the magic
+		return res.render('product-create-form')
 	},
 	
 	// Create -  Method to store
@@ -37,7 +37,7 @@ const controller = {
 
 	// Update - Form to edit
 	edit: (req, res) => {
-		// Do the magic
+		return res.render('product-edit-form')
 	},
 	// Update - Method to update
 	update: (req, res) => {
