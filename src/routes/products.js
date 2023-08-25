@@ -14,11 +14,11 @@ router.post('/create', productsController.store);
 
 
 /*** GET ONE PRODUCT ***/ 
-router.get('/detail/:id/', productsController.detail); 
+router.get('/detail/:id', productsController.detail); 
 
 /*** EDIT ONE PRODUCT ***/ 
 router.get('/edit/:id?', productsController.edit); 
-router.post('/update/:id', productsController.update); 
+router.put('/update/:id', productsController.update); 
 
 
 /*** DELETE ONE PRODUCT***/ 
